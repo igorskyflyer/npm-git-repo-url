@@ -3,7 +3,7 @@
 <br>
 
 <div align="center">
-  🌐 Gets the origin URL of the current, local Git repository. 🗺️
+  🌐 Gets the origin URL of a local Git repository. 🗺️
 </div>
 
 <br>
@@ -63,7 +63,7 @@ npm i '@igor.dvlpr/git-repo-url'
 
 ## 🤹🏼 API
 
-### `getRepoUrl()`
+### `getRepoUrl(options?): Promise<string>`
 
 *Asynchronously gets the URL of a local directory if it is a Git repository.*  
 
@@ -78,7 +78,7 @@ Returns the URL if the directory is a Git repository, otherwise an empty string.
 
 ---
 
-### `getRepoUrlSync()`
+### `getRepoUrlSync(options?): string`
 
 *Synchronously gets the URL of a local directory if it is a Git repository.*  
 
