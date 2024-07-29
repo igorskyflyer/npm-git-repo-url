@@ -136,15 +136,16 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 <br>
 
-[@igor.dvlpr/strip-headings](https://www.npmjs.com/package/@igor.dvlpr/strip-headings)
+[@igor.dvlpr/is-git-repo](https://www.npmjs.com/package/@igor.dvlpr/is-git-repo)
 
-> _⛸ Strips Markdown headings!🏹_
+> _🐸 Checks if a directory is a local Git repository. 🕶️_
 
 <br>
 
-[@igor.dvlpr/duoscribi](https://www.npmjs.com/package/@igor.dvlpr/duoscribi)
+[@igor.dvlpr/regkeys](https://www.npmjs.com/package/@igor.dvlpr/regkeys)
 
-> _✒ DúöScríbî allows you to convert letters with diacritics to regular letters. 🤓_
+> _📚 An NPM package for fetching Windows registry keys. 🗝_
+
 ---
 
 <br>
