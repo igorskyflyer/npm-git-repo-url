@@ -40,6 +40,8 @@
 
 - [Usage](#-usage)
 - [API](#-api)
+  - [getRepoUrl()](#getrepourl)
+  - [getRepoUrlSync()](#getrepourlsync)
 - [Examples](#-examples)
 - [Changelog](#-changelog)
 - [License](#-license)
