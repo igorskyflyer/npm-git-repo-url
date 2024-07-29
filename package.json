@@ -1,7 +1,7 @@
 {
     "name": "@igor.dvlpr/git-repo-url",
-    "version": "1.0.1",
-    "description": "🌐 Gets the origin URL of the current, local Git repository. 🗺️",
+    "version": "1.0.2",
+    "description": "🌐 Gets the origin URL a local Git repository. 🗺️",
     "sideEffects": false,
     "engines": {
         "node": ">=20.0"
