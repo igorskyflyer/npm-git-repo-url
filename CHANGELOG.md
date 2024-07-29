@@ -1,11 +1,11 @@
 ## 📒 Changelog
 
-### of [@igor.dvlpr/$pkg](https://github.com/igorskyflyer/$repo)
+### of [@igor.dvlpr/git-repo-url](https://github.com/igorskyflyer/npm-git-repo-url)
 
 <br>
 
 ## v1.0.0
 
-<p align="right"><em>--2024</em></p>
+<p align="right"><em>29-Jul-2024</em></p>
 
 - **🚀 launch**: initial release 🎉
