@@ -61,14 +61,43 @@ npm i '@igor.dvlpr/git-repo-url'
 
 ## 🤹🏼 API
 
+### `getRepoUrl()`
+
+*Asynchronously gets the URL of a local directory if it is a Git repository.*  
+
+`options` - optional object with options:
+  - `directory` - sets the current working directory, otherwise the current directory will be used instead of it.  
+  
+<br>
+
+Will throw an error if the passed directory is not valid or does not exist.
+
+Returns the URL if the directory is a Git repository, otherwise an empty string.
+
+---
+
+### `getRepoUrlSync()`
+
+*Synchronously gets the URL of a local directory if it is a Git repository.*  
+
+`options` - optional object with options:
+  - `directory` - sets the current working directory, otherwise the current directory will be used instead of it.  
+
+<br>
+
+Will throw an error if the passed directory is not valid or does not exist.
+
+Returns the URL if the directory is a Git repository, otherwise an empty string.
+
 ---
 
 ## ✨ Examples
 
 `example.ts`
 ```ts
-import {  } from '@igor.dvlpr/git-repo-url'
+import { getRepoUrlSync } from '@igor.dvlpr/git-repo-url'
 
+console.log(getRepoUrlSync()) // prints e.g. 'https://github.com/igorskyflyer/npm-duoscribi'
 ```
 
 ---
@@ -87,26 +116,33 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ## 🧬 Related
 
-[]()
+[@igor.dvlpr/recursive-readdir](https://www.npmjs.com/package/@igor.dvlpr/recursive-readdir)
 
-> __
+> _📖 Provides recursive readdir() and readdirSync() functions. 📁_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/is-rootdir](https://www.npmjs.com/package/@igor.dvlpr/is-rootdir)
 
-[]()
+> _🔼 Provides a way to check if the given path is the root drive/directory. ⛔_
 
-> __
+<br>
 
-[]()
+[@igor.dvlpr/vscode-folderpicker](https://www.npmjs.com/package/@igor.dvlpr/vscode-folderpicker)
 
-> __
+> _✨ Provides a custom Folder Picker API + UI for Visual Studio Code. 🎨_
 
-[]()
+<br>
 
-> __
+[@igor.dvlpr/strip-headings](https://www.npmjs.com/package/@igor.dvlpr/strip-headings)
 
+> _⛸ Strips Markdown headings!🏹_
+
+<br>
+
+[@igor.dvlpr/duoscribi](https://www.npmjs.com/package/@igor.dvlpr/duoscribi)
+
+> _✒ DúöScríbî allows you to convert letters with diacritics to regular letters. 🤓_
 ---
 
 <br>
