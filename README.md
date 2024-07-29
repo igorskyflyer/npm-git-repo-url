@@ -66,7 +66,7 @@ npm i '@igor.dvlpr/git-repo-url'
 *Asynchronously gets the URL of a local directory if it is a Git repository.*  
 
 `options` - optional object with options:
-  - `directory` - sets the current working directory, otherwise the current directory will be used instead of it.  
+  - `directory` - sets the current working directory, otherwise the current directory will be used instead.  
   
 <br>
 
@@ -81,7 +81,7 @@ Returns the URL if the directory is a Git repository, otherwise an empty string.
 *Synchronously gets the URL of a local directory if it is a Git repository.*  
 
 `options` - optional object with options:
-  - `directory` - sets the current working directory, otherwise the current directory will be used instead of it.  
+  - `directory` - sets the current working directory, otherwise the current directory will be used instead.  
 
 <br>
 
