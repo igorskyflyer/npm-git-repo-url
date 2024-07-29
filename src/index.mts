@@ -12,10 +12,10 @@ interface IOptions {
  * Asynchronously gets the URL of a local directory if it is a Git repository.
  * @param options Optional object with options:
  *
- * - `directory` - sets the current working directory, otherwise the current directory will be used instead of it.
+ * - `directory` - Sets the current working directory, otherwise the current directory will be used instead of it.
  *
- * @throws will throw an error if the passed directory is not valid or does not exist.
- * @returns the URL if the directory is a Git repository, otherwise an empty string.
+ * @throws Will throw an error if the passed directory is not valid or does not exist.
+ * @returns The URL if the directory is a Git repository, otherwise an empty string.
  * @since v1.0.0
  */
 export async function getRepoUrl(options?: IOptions): Promise<string> {
@@ -46,8 +46,8 @@ export async function getRepoUrl(options?: IOptions): Promise<string> {
  *
  * - `directory` - sets the current working directory, otherwise the current directory will be used instead of it.
  *
- * @throws will throw an error if the passed directory is not valid or does not exist.
- * @returns the URL if the directory is a Git repository, otherwise an empty string.
+ * @throws Will throw an error if the passed directory is not valid or does not exist.
+ * @returns The URL if the directory is a Git repository, otherwise an empty string.
  * @since v1.0.0
  */
 export function getRepoUrlSync(options?: IOptions): string {
