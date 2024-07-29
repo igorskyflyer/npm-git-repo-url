@@ -1,6 +1,6 @@
 {
     "name": "@igor.dvlpr/git-repo-url",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "🌐 Gets the origin URL of the current, local Git repository. 🗺️",
     "sideEffects": false,
     "engines": {
