@@ -1,9 +1,9 @@
-<h1 align="center">$project</h1>
+<h1 align="center">Git Repo URL</h1>
 
 <br>
 
 <div align="center">
-  $desc
+  🌐 Gets the origin URL of the current, local Git repository. 🗺️
 </div>
 
 <br>
@@ -54,7 +54,7 @@
 Install it by executing:
 
 ```shell
-npm i '@igor.dvlpr/$pkg'
+npm i '@igor.dvlpr/git-repo-url'
 ```
 
 <br>
@@ -67,7 +67,7 @@ npm i '@igor.dvlpr/$pkg'
 
 `example.ts`
 ```ts
-import {  } from '@igor.dvlpr/$pkg'
+import {  } from '@igor.dvlpr/git-repo-url'
 
 ```
 
@@ -75,13 +75,13 @@ import {  } from '@igor.dvlpr/$pkg'
 
 ## 📝 Changelog
 
-📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/$repo/blob/main/CHANGELOG.md).
+📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-git-repo-url/blob/main/CHANGELOG.md).
 
 ---
 
 ## 🪪 License
 
-Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/$repo/blob/main/LICENSE).
+Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-git-repo-url/blob/main/LICENSE).
 
 ---
 
