@@ -4,6 +4,15 @@
 
 <br>
 
+## v1.0.1
+
+<p align="right"><em>29-Jul-2024</em></p>
+
+- **💻 dev**: refactor and tidy
+
+<br>
+<br>
+
 ## v1.0.0
 
 <p align="right"><em>29-Jul-2024</em></p>
