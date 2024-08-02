@@ -1,6 +1,6 @@
 {
     "name": "@igor.dvlpr/git-repo-url",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "🌐 Gets the origin URL a local Git repository. 🗺️",
     "sideEffects": false,
     "engines": {
@@ -9,11 +9,11 @@
     "types": "./dist/index.d.mts",
     "main": "./dist/index.mjs",
     "module": "./dist/index.mjs",
-    "files": ["./dist"],
+    "files": ["dist"],
     "scripts": {
         "build": "tsc",
         "test": "vitest --run",
-        "debug": "vitest",
+        "debug": "tsc --sourceMap --watch",
         "pub": "npm test && npm run build && npm publish --access public"
     },
     "keywords": [
@@ -41,12 +41,12 @@
     },
     "devDependencies": {
         "@biomejs/biome": "^1.8.3",
-        "@igor.dvlpr/biome-config-igorskyflyer": "^1.0.1",
+        "@igor.dvlpr/biome-config-igorskyflyer": "^1.0.3",
         "@types/node": "^20.14.13",
         "typescript": "^5.5.4",
-        "vitest": "^2.0.4"
+        "vitest": "^2.0.5"
     },
     "dependencies": {
-        "@igor.dvlpr/simple-exec": "^1.0.0"
+        "@igor.dvlpr/simple-exec": "^2.0.0"
     }
 }
