@@ -4,6 +4,16 @@
 
 <br>
 
+## v1.0.3
+
+<p align="right"><em>02-Aug-2024</em></p>
+
+- **💻 dev**: upgrade dependencies
+- **📜 docs**: fix docs
+
+<br>
+<br>
+
 ## v1.0.2
 
 <p align="right"><em>29-Jul-2024</em></p>
