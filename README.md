@@ -38,6 +38,7 @@
 
 ## 📃 Table of contents
 
+- [Features](#-features)
 - [Usage](#-usage)
 - [API](#-api)
   - [getRepoUrl()](#getrepourloptions-promisestring)
@@ -50,6 +51,15 @@
 
 <br>
 <br>
+
+## 🤖 Features
+
+- 🔍 gets the URL of a local Git repo
+- ⌚ both async and sync methods supported
+- 👽 cross-platform
+- ⚖️ lightweight
+
+---
 
 ## 🕵🏼 Usage
 
@@ -67,7 +77,7 @@ Install the module by executing:
 npm i '@igor.dvlpr/git-repo-url'
 ```
 
-<br>
+---
 
 ## 🤹🏼 API
 
@@ -103,7 +113,7 @@ Returns the URL if the directory is a Git repository, otherwise an empty string.
 
 ## ✨ Examples
 
-`example.ts`
+`example.mts`
 ```ts
 import { getRepoUrlSync } from '@igor.dvlpr/git-repo-url'
 
@@ -152,11 +162,9 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 [@igor.dvlpr/regkeys](https://www.npmjs.com/package/@igor.dvlpr/regkeys)
 
-> _📚 An NPM package for fetching Windows registry keys. 🗝_
+> _📚 An npm package for fetching Windows registry keys. 🗝_
 
 ---
 
-<br>
-
-### 👨🏻‍💻 Author
+## 👨🏻‍💻 Author
 Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
