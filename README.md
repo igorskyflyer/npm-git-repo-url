@@ -40,8 +40,8 @@
 
 - [Usage](#-usage)
 - [API](#-api)
-  - [getRepoUrl()](#getrepourl)
-  - [getRepoUrlSync()](#getrepourlsync)
+  - [getRepoUrl()](#getrepourloptions-promisestring)
+  - [getRepoUrlSync()](#getrepourlsyncoptions-string)
 - [Examples](#-examples)
 - [Changelog](#-changelog)
 - [License](#-license)
@@ -53,7 +53,15 @@
 
 ## 🕵🏼 Usage
 
-Install it by executing:
+> [!WARNING]
+> This module requires that the [`git`](https://git-scm.com) executable is installed and available in the system path.
+>
+> If not, it needs to be installed first.
+>
+
+<br>
+
+Install the module by executing:
 
 ```shell
 npm i '@igor.dvlpr/git-repo-url'
