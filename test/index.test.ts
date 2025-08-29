@@ -1,7 +1,7 @@
 // Author: Igor Dimitrijević (@igorskyflyer)
 
 import { assert, describe, suite, test } from 'vitest'
-import { getRepoUrl, getRepoUrlSync } from '../src/index.mts'
+import { getRepoUrl, getRepoUrlSync } from '../src/index.js'
 
 describe('🧪 Git Repo URL tests 🧪', () => {
   suite('getRepoUrlSync()', () => {
