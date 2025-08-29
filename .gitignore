@@ -2,3 +2,5 @@ node_modules/
 dist/
 *.tgz
 *.todo
+/test/is-git-no-url__git
+/test/is-git-with-url__git
