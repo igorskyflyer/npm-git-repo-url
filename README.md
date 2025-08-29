@@ -1,50 +1,27 @@
-<h1 align="center">Git Repo URL</h1>
-
-<br>
-
 <div align="center">
-  🌐 Gets the origin URL of a local Git repository. 🗺️
+  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-git-repo-url/main/media/git-repo-url.png" alt="Icon of Git Repo URL" width="256" height="256">
+  <h1>Git Repo URL</h1>
 </div>
 
 <br>
-<br>
 
-<div align="center">
-  <blockquote>
-    <br>
-    <h4>💖 Support further development</h4>
-    <span>I work hard for every project, including this one
-    <br>
-    and your support means a lot to me!
-    <br>
-    <br>
-    Consider buying me a coffee. ☕
-    <br>
-    <strong>Thank you for supporting my efforts! 🙏😊</strong></span>
-    <br>
-    <br>
-    <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="150"></a>
-    <br>
-    <br>
-    <a href="https://github.com/igorskyflyer"><em>@igorskyflyer</em></a>
-    <br>
-    <br>
-    <br>
-  </blockquote>
-</div>
+<h4 align="center">
+  🌐 Gets the origin URL a local Git repository. 🗺️
+</h4>
 
 <br>
 <br>
 
-## 📃 Table of contents
+## 📃 Table of Contents
 
 - [Features](#-features)
 - [Usage](#-usage)
 - [API](#-api)
   - [getRepoUrl()](#getrepourloptions-promisestring)
   - [getRepoUrlSync()](#getrepourlsyncoptions-string)
-- [Examples](#-examples)
+- [Examples](#️-examples)
 - [Changelog](#-changelog)
+- [Support](#-support)
 - [License](#-license)
 - [Related](#-related)
 - [Author](#-author)
@@ -54,30 +31,46 @@
 
 ## 🤖 Features
 
-- 🔍 gets the URL of a local Git repo
-- ⌚ both async and sync methods supported
-- 👽 cross-platform
-- ⚖️ lightweight
+- ⚡ Async & sync modes - fetch the Git remote URL your way
+- 📂 Custom directory - point to any folder, not just the current one
+- 🛡 Input validation - blocks invalid or empty paths early
+- 🚫 Existence check - errors if the folder doesn't exist
+- 🖥 Direct Git command - uses `git remote get-url origin` for accuracy
+- ✅ Clean return - URL string if found, empty string if not
+- 🧩 Error‑safe - gracefully handles Git errors without crashing
+- 🪶 Lightweight dependency - minimal overhead, fast execution
 
----
+<br>
+<br>
 
-## 🕵🏼 Usage
-
-> [!WARNING]
+> ⚠️ **WARNING**
+>
 > This module requires that the [`git`](https://git-scm.com) executable is installed and available in the system path.
 >
 > If not, it needs to be installed first.
 >
 
 <br>
+<br>
 
-Install the module by executing:
+## 🕵🏼 Usage
 
-```shell
-npm i '@igor.dvlpr/git-repo-url'
+Install it by executing any of the following, depending on your preferred package manager:
+
+```bash
+pnpm add @igorskyflyer/git-repo-url
 ```
 
----
+```bash
+yarn add @igorskyflyer/git-repo-url
+```
+
+```bash
+npm i @igorskyflyer/git-repo-url
+```
+
+<br>
+<br>
 
 ## 🤹🏼 API
 
@@ -109,62 +102,88 @@ Will throw an error if the passed directory is not valid or does not exist.
 
 Returns the URL if the directory is a Git repository, otherwise an empty string.
 
----
 
-## ✨ Examples
+<br>
+<br>
 
-`example.mts`
+## 🗒️ Examples
+
+`example.ts`
 ```ts
-import { getRepoUrlSync } from '@igor.dvlpr/git-repo-url'
+import { getRepoUrlSync } from '@igorskyflyer/git-repo-url'
 
 console.log(getRepoUrlSync()) // prints e.g. 'https://github.com/igorskyflyer/npm-duoscribi'
 ```
 
----
+
+<br>
+<br>
 
 ## 📝 Changelog
 
-📑 The changelog is available here: [CHANGELOG.md](https://github.com/igorskyflyer/npm-git-repo-url/blob/main/CHANGELOG.md).
+📑 The changelog is available here, [CHANGELOG.md](https://github.com/igorskyflyer/npm-git-repo-url/blob/main/CHANGELOG.md).
 
----
+<br>
+<br>
 
 ## 🪪 License
 
 Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-git-repo-url/blob/main/LICENSE).
 
----
+<br>
+<br>
+
+## 💖 Support
+
+<div align="center">
+  I work hard for every project, including this one and your support means a lot to me!
+  <br>
+  Consider buying me a coffee. ☕
+  <br>
+  <br>
+  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="180" height="46"></a>
+  <br>
+  <br>
+  <em>Thank you for supporting my efforts!</em> 🙏😊
+</div>
+
+<br>
+<br>
 
 ## 🧬 Related
 
-[@igor.dvlpr/recursive-readdir](https://www.npmjs.com/package/@igor.dvlpr/recursive-readdir)
+[@igorskyflyer/recursive-readdir](https://www.npmjs.com/package/@igorskyflyer/recursive-readdir)
 
 > _📖 Provides recursive readdir() and readdirSync() functions. 📁_
 
 <br>
 
-[@igor.dvlpr/is-rootdir](https://www.npmjs.com/package/@igor.dvlpr/is-rootdir)
+[@igorskyflyer/is-rootdir](https://www.npmjs.com/package/@igorskyflyer/is-rootdir)
 
 > _🔼 Provides a way to check if the given path is the root drive/directory. ⛔_
 
 <br>
 
-[@igor.dvlpr/vscode-folderpicker](https://www.npmjs.com/package/@igor.dvlpr/vscode-folderpicker)
+[@igorskyflyer/vscode-folderpicker](https://www.npmjs.com/package/@igorskyflyer/vscode-folderpicker)
 
 > _✨ Provides a custom Folder Picker API + UI for Visual Studio Code. 🎨_
 
 <br>
 
-[@igor.dvlpr/is-git-repo](https://www.npmjs.com/package/@igor.dvlpr/is-git-repo)
+[@igorskyflyer/is-git-repo](https://www.npmjs.com/package/@igorskyflyer/is-git-repo)
 
 > _🐸 Checks if a directory is a local Git repository. 🕶️_
 
 <br>
 
-[@igor.dvlpr/regkeys](https://www.npmjs.com/package/@igor.dvlpr/regkeys)
+[@igorskyflyer/regkeys](https://www.npmjs.com/package/@igorskyflyer/regkeys)
 
 > _📚 An npm package for fetching Windows registry keys. 🗝_
 
----
+
+<br>
+<br>
+<br>
 
 ## 👨🏻‍💻 Author
 Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
